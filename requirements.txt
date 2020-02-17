@@ -1,0 +1,9 @@
+numpy>=1.10.2
+pandas>=0.17.1
+pytz>=2016.0
+more_itertools>=3.1.0
+scikit-network>=0.12.0
+scipy>=1.4.0
+pandas>=1.0.0
+scikit-learn>=0.22.1
+torch>=1.4.0
