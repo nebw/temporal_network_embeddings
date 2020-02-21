@@ -16,9 +16,6 @@ def parse_interaction_events(data_path, first_day_date, from_date_incl, to_date_
 
         date = first_day_date + datetime.timedelta(days=day)
 
-        if date != datetime.datetime(2016, 8, 5):
-            continue
-
         if (date < from_date_incl) or (date >= to_date_excl):
             continue
 
